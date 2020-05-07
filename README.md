@@ -1,5 +1,6 @@
 # terraform-aws-asg
 For Aws provider a module to create Auto Scaling Group and Elastic Load Balancer.
+
 module "asg" {
   source  = "tuyalou/asg/aws"
   version = "1.0.0"
